@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+* body {
+  background: hsl(204deg, 43%, 93%);
+}/*# sourceMappingURL=style.css.map */
