@@ -13,15 +13,14 @@
         width: 100%
 
         margin: 0
-        padding: 0
+        padding: 30px
 
         background: hsl(204, 43%, 93%)
 
         #main-body
-            height: 600px
-            width: 800px
-
-            background: lightgrey
+            height: auto
+            width: 100%
+            max-width: 700px
 
             .top
                 height: 250px
@@ -29,24 +28,104 @@
 
                 padding: 40px
 
+                border-radius: 10px 10px 0 0
+
                 background: white
+
+                .top-header
+                    font-size: 24px
+                    font-weight: 700
+
+                    color: hsl(179, 62%, 43%)
+
+                .under-header
+                    font-size: 18px
+                    font-weight: 700
+                    
+                    color: hsl(71, 73%, 54%)
+
+                    margin-top: 30px 
+
+                .top-paragraf
+                    font-size: 16px
+                    line-height: 30px
+
+                    color: hsl(218, 22%, 67%)
 
             .bottom
                 display: flex
                 flex-direction: row
-                height: 350px
+
+                height: 300px
                 width: 100%
 
-                background: grey
-
                 .left
-                    height: 350px
+                    height: 300px
                     width: 50%
 
-                    background: limegreen
+                    padding: 40px
+
+                    border-radius: 0 0 0 10px
+
+                    color: white
+                    
+
+                    background: hsl(179, 62%, 42%)
+
+                    .bottom-header
+                        font-size: 19px
+                        font-weight: 700
+                        color: white
+
+                    .price 
+                        font-size: 32px
+                        font-weight: 700
+                        color: white
+
+                        margin-bottom: 0px
+
+                    .subscrition
+                        font-size: 15px
+                        color: hsl(218, 22%, 80%)
+
+                    .bottom-left
+                        font-size: 15px
+                        font-weight: 700
+                        color: white
+
+                    button
+                        height: 50px
+                        width: 100%
+
+                        margin-top: 20px 
+
+                        border: none
+                        border-radius: 5px
+
+                        box-shadow: 0 10px 20px -5px grey
+
+                        color: white
+                        font-weight: 700
+
+                        background: hsl(71, 73%, 54%)
 
                 .right
-                    height: 350px
+                    height: 300px
                     width: 50%
 
-                    background: green
+                    padding: 40px
+
+                    border-radius: 0 0 10px 0
+
+                    background: hsl(179, 68%, 45%)
+
+                    .bottom-header
+                        font-size: 19px
+                        font-weight: 700
+                        color: white
+
+                    .bottom-right-paragraf
+                        line-height: 25px
+                        color: hsl(204, 43%, 93%)
+
+                        max-width: 250px

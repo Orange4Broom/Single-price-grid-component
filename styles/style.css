@@ -10,34 +10,96 @@
   min-height: 100vh;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 30px;
   background: hsl(204deg, 43%, 93%);
 }
 * body #main-body {
-  height: 600px;
-  width: 800px;
-  background: lightgrey;
+  height: auto;
+  width: 100%;
+  max-width: 700px;
 }
 * body #main-body .top {
   height: 250px;
   width: 100%;
   padding: 40px;
+  border-radius: 10px 10px 0 0;
   background: white;
+}
+* body #main-body .top .top-header {
+  font-size: 24px;
+  font-weight: 700;
+  color: hsl(179deg, 62%, 43%);
+}
+* body #main-body .top .under-header {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(71deg, 73%, 54%);
+  margin-top: 30px;
+}
+* body #main-body .top .top-paragraf {
+  font-size: 16px;
+  line-height: 30px;
+  color: hsl(218deg, 22%, 67%);
 }
 * body #main-body .bottom {
   display: flex;
   flex-direction: row;
-  height: 350px;
+  height: 300px;
   width: 100%;
-  background: grey;
 }
 * body #main-body .bottom .left {
-  height: 350px;
+  height: 300px;
   width: 50%;
-  background: limegreen;
+  padding: 40px;
+  border-radius: 0 0 0 10px;
+  color: white;
+  background: hsl(179deg, 62%, 42%);
+}
+* body #main-body .bottom .left .bottom-header {
+  font-size: 19px;
+  font-weight: 700;
+  color: white;
+}
+* body #main-body .bottom .left .price {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0px;
+}
+* body #main-body .bottom .left .subscrition {
+  font-size: 15px;
+  color: hsl(218deg, 22%, 80%);
+}
+* body #main-body .bottom .left .bottom-left {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+* body #main-body .bottom .left button {
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px -5px grey;
+  color: white;
+  font-weight: 700;
+  background: hsl(71deg, 73%, 54%);
 }
 * body #main-body .bottom .right {
-  height: 350px;
+  height: 300px;
   width: 50%;
-  background: green;
+  padding: 40px;
+  border-radius: 0 0 10px 0;
+  background: hsl(179deg, 68%, 45%);
+}
+* body #main-body .bottom .right .bottom-header {
+  font-size: 19px;
+  font-weight: 700;
+  color: white;
+}
+* body #main-body .bottom .right .bottom-right-paragraf {
+  line-height: 25px;
+  color: hsl(204deg, 43%, 93%);
+  max-width: 250px;
 }/*# sourceMappingURL=style.css.map */
