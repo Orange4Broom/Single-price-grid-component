@@ -4,5 +4,40 @@
   font-family: "Karla", sans-serif;
 }
 * body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   background: hsl(204deg, 43%, 93%);
+}
+* body #main-body {
+  height: 600px;
+  width: 800px;
+  background: lightgrey;
+}
+* body #main-body .top {
+  height: 250px;
+  width: 100%;
+  padding: 40px;
+  background: white;
+}
+* body #main-body .bottom {
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+  width: 100%;
+  background: grey;
+}
+* body #main-body .bottom .left {
+  height: 350px;
+  width: 50%;
+  background: limegreen;
+}
+* body #main-body .bottom .right {
+  height: 350px;
+  width: 50%;
+  background: green;
 }/*# sourceMappingURL=style.css.map */
