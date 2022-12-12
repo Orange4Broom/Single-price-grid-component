@@ -129,3 +129,34 @@
                         color: hsl(204, 43%, 93%)
 
                         max-width: 250px
+
+@media (max-width: 700px) 
+    body
+        overflow-x: hidden
+
+        #main-body
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+
+            width: auto
+            padding: 0
+
+            .top
+                height: auto
+                width: 300px
+
+            .bottom
+                flex-direction: column
+                justify-content: center
+                align-items: center
+
+                height: auto
+                width: 600px
+
+                .left
+                    border-radius: 0
+                    
+                .right
+                    border-radius: 0 0 10px 10px

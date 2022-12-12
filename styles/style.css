@@ -102,4 +102,35 @@
   line-height: 25px;
   color: hsl(204deg, 43%, 93%);
   max-width: 250px;
+}
+
+@media (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
+  body #main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 0;
+  }
+  body #main-body .top {
+    height: auto;
+    width: 300px;
+  }
+  body #main-body .bottom {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 600px;
+  }
+  body #main-body .bottom .left {
+    border-radius: 0;
+  }
+  body #main-body .bottom .right {
+    border-radius: 0 0 10px 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
